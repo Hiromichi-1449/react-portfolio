@@ -1,7 +1,30 @@
+import { useRef } from 'react'
 import './index.scss'
 import Loader from 'react-loaders'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
+    const refForm = useRef()
+    const sendEmail = (e) => {
+        e.preventDefault()
+
+        emailjs
+            .sendForm (
+                'gmail',
+                'y8jEWnWu8GOv8LH38',
+                refForm.current,
+                'Luee3EFCzxeCJ6HDBQIxb'
+            )
+            .then(
+                () => {
+                    alert('Message successfully sent!')
+                    window.location.reload(false)
+                },
+                () => {
+                    alert('Failed to send the message, please try again.')
+                }
+            )
+    }
     return(
         <>
         <div className='container contact-page'>

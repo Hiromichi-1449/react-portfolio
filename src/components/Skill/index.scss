@@ -1,80 +1,110 @@
-.skill-page {
-    .text-zone {
-        position: absolute;
-        left: 10%;
-        h1 {
-            font-size: 45px;
-            font-family: 'Coolvetica';
-            color: #EB5E28;
-        }
-    }
-    // .subTProj1-text-zone {
-    //     position: absolute;
-    //     top: 7%;
-    //     left: 11%;
-
-    //     h2 {
-    //         font-size: 35px;
-    //         font-family: 'Coolvetica';
-    //         color: #EB5E28;
-    //     }
-    // }
-    .flat-button-solar {
-        color: #EB5E28;
-        font-size: 13px;
-        font-weight: 400;
-        letter-spacing: 4px;
-        font-family: sans-serif;
-        text-decoration: none;
-        padding: 10px 18px;
-        border: 1px solid #EB5E28;
-        margin-top: 25px;
-        animation: fadeIn 1s 1.8s backwards;
-        white-space: nowrap;
-
-        position: relative;
-        margin-top: 90px;
-        margin-left: 190px;
-        &:hover {
-            background: #EB5E28;
-            color: #333;
-        }
-    }
-
-    .subTProj2-text-zone {
-        position: absolute;
-        top: 62%;
-        left: 11%;
-
-        h2 {
-            font-size: 35px;
-            font-family: 'Coolvetica';
-            color: #EB5E28;
-        }
-    }
-
-    // .project001.ratio-16x9 {
-    //     position: fixed;
-    //     top: 40%;
-    //     left: 30%;
-    //     transform: translate(-50%, -50%);
-    // }
-
-    .project001.ratio-16x9 {
-        position: fixed;
-        top: 40%;
-        left: 46%;
-        transform: translate(-50%, -50%);
-        width: 70%; /* Adjust the width as needed */
-        height: auto; /* Allow the height to adjust proportionally */
-    }
-
-    .project002.ratio-16x9 {
-        position: fixed;
-        top: 101%;
-        left: 46%;
-        transform: translate(-50%, -50%);
-        width: 70%; /* Adjust the width as needed */
-        height: auto; /* Allow the height to adjust proportionally */
-    }
+.title {
+    padding-left: 200px;
+    font-size: 30px;
+    font-family: 'Coolvetica';
+    color: #EB5E28;
 }
+
+.proj1Repo {
+    padding-left: 250px;
+    // unable to make them work at the moment:
+    // color: #EB5E28;
+    // font-size: 13px;
+    // font-weight: 400;
+    // letter-spacing: 4px;
+    // font-family: sans-serif;
+    // text-decoration: none;
+    // padding: 10px 18px;
+    // border: 1px solid #EB5E28;
+    // margin-top: 25px;
+    // animation: fadeIn 1s 1.8s backwards;
+    // white-space: nowrap;
+}
+
+.proj1Video {
+    padding-left: 250px;
+}
+
+.iOSAppRepo {
+    padding-left: 400px;
+}
+// .skill-page {
+//     .text-zone {
+//         position: absolute;
+//         left: 10%;
+//         h1 {
+//             font-size: 45px;
+//             font-family: 'Coolvetica';
+//             color: #EB5E28;
+//         }
+//     }
+//     // .subTProj1-text-zone {
+//     //     position: absolute;
+//     //     top: 7%;
+//     //     left: 11%;
+
+//     //     h2 {
+//     //         font-size: 35px;
+//     //         font-family: 'Coolvetica';
+//     //         color: #EB5E28;
+//     //     }
+//     // }
+//     .flat-button-solar {
+//         color: #EB5E28;
+//         font-size: 13px;
+//         font-weight: 400;
+//         letter-spacing: 4px;
+//         font-family: sans-serif;
+//         text-decoration: none;
+//         padding: 10px 18px;
+//         border: 1px solid #EB5E28;
+//         margin-top: 25px;
+//         animation: fadeIn 1s 1.8s backwards;
+//         white-space: nowrap;
+
+//         position: relative;
+//         margin-top: 90px;
+//         margin-left: 190px;
+//         &:hover {
+//             background: #EB5E28;
+//             color: #333;
+//         }
+//     }
+
+//     .subTProj2-text-zone {
+//         position: absolute;
+//         top: 62%;
+//         left: 11%;
+
+//         h2 {
+//             font-size: 35px;
+//             font-family: 'Coolvetica';
+//             color: #EB5E28;
+//         }
+//     }
+
+//     // .project001.ratio-16x9 {
+//     //     position: fixed;
+//     //     top: 40%;
+//     //     left: 30%;
+//     //     transform: translate(-50%, -50%);
+//     // }
+
+//     .project001.ratio-16x9 {
+//         position: fixed;
+//         top: 40%;
+//         left: 46%;
+//         transform: translate(-50%, -50%);
+//         width: 70%; /* Adjust the width as needed */
+//         height: auto; /* Allow the height to adjust proportionally */
+//     }
+
+//     .project002.ratio-16x9 {
+//         position: fixed;
+//         top: 101%;
+//         left: 46%;
+//         transform: translate(-50%, -50%);
+//         width: 70%; /* Adjust the width as needed */
+//         height: auto; /* Allow the height to adjust proportionally */
+//     }
+// }

@@ -41,17 +41,15 @@ const Skill = () => {
                 </Col>
             </Row>
             <Col>
-                <Row className = 'proj1Repo'>
-                <Link to = 'https://github.com/Hiromichi-1449/Solar-System'> Solar System </Link>
-                </Row>
-                <Row className = 'proj1Video'>
-                <iframe src = "https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241?iframeembed=true&playerId=kaltura_player&entry_id=1_sa6kqqad&flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[hotspots.plugin]=1&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_wdfamdch" width="640" height="394" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" 
-                title = "Kaltura video" allowFullcreen></iframe>
+                <Row className = 'repos'>
+                <Link to = 'https://github.com/Hiromichi-1449/Solar-System' className = 'proj1Repo'> Solar System </Link>
+                <Link to = 'https://github.com/Hiromichi-1449/IsShin' className = 'iOSAppRepo'> IsShin </Link>
                 </Row>
             </Col>
             <Col>
-                <Row className = 'iOSAppRepo'>
-                <Link to = 'https://github.com/Hiromichi-1449/IsShin'> IsShin </Link>
+                <Row className = 'proj1Video'>
+                <iframe src = "https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241?iframeembed=true&playerId=kaltura_player&entry_id=1_sa6kqqad&flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[hotspots.plugin]=1&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_wdfamdch" width="640" height="394" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" 
+                title = "Kaltura video" allowFullcreen></iframe>
                 </Row>
             </Col>
 
